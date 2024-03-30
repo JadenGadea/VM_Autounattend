@@ -1,11 +1,14 @@
+Detta är en inlämningsuppgift där vi skulle skriva ett PowerShell-skript för att starta två virtuella maskiner på Hyper-V. Därefter ska vi skapa konton, samt radera och ta bort filer i den delade nätverksresursen.
+
+
 Inga inloggningsuppgifter behövs eftersom de är hårdkodade i skriptet. Skriptet använder inloggningen som skapas av .xml-filen.
 
 1. Skapa ISO fil med min unattend.xml
 
-2. Lägg in Mappen i C:\ på host maskinen.
+2. Lägg in VM Mappen i C:\ på host maskinen.
 
 2. skriptet hard hard-kodat in credentials som kommer med .xml filen.
-	2.1 Även hard-kodat user1 och user2 creds. 
+	2.1 Även hard-kodat user1 och user2 creds.
 
 3. Run as admin .\Masterscript
 
